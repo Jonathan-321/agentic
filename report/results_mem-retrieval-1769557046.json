@@ -1,0 +1,40 @@
+{
+  "condition": "mem-retrieval",
+  "results": [
+    {
+      "task_type": "long_horizon",
+      "bucket": "n/a",
+      "pass_rate": 100.0,
+      "avg_steps": 3,
+      "n": 20
+    },
+    {
+      "task_type": "needle",
+      "bucket": "<=2500",
+      "pass_rate": 100.0,
+      "avg_steps": 3,
+      "n": 8
+    },
+    {
+      "task_type": "needle",
+      "bucket": "<=5000",
+      "pass_rate": 100.0,
+      "avg_steps": 3,
+      "n": 8
+    },
+    {
+      "task_type": "needle",
+      "bucket": "<=800",
+      "pass_rate": 100.0,
+      "avg_steps": 3,
+      "n": 8
+    },
+    {
+      "task_type": "needle",
+      "bucket": ">5000",
+      "pass_rate": 100.0,
+      "avg_steps": 3,
+      "n": 8
+    }
+  ]
+}
