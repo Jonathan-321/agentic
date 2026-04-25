@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.venv
+runs/*.jsonl
+eval/data/
+eval/*_tasks.jsonl
+.DS_Store
